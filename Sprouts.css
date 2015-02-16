@@ -1,0 +1,175 @@
+.About{
+  font-weight:bold;
+  font-family:helvetica, sans-serif;
+  font-size:19px;
+}
+
+body {
+  background-color: #ffff99;
+  background-size: cover;
+}
+
+caption{
+  font-size: 16pt;
+  font-weight: bold;
+}
+
+#desktop {
+    display: none;
+}
+
+footer {
+  font-size: 70%;
+  text-align:center;
+  color: #000000;
+  padding-top: 150px;
+  padding-bottom: 30px;
+  clear: both;
+}
+ 
+ #gallery {
+  position:  relative;
+  height: 800px;
+}
+
+#gallery ul {
+  width:  300px;
+  list-style-type: none;
+}
+
+#gallery li {
+  display:  inline-block;
+  padding: 10px;
+}
+
+#gallery img {
+  border-style:  none;
+}
+
+#gallery a {
+  text-decoration:  none;
+  color:  #333;
+  font-style:  italic;
+}
+
+#gallery span {
+  display:  none;
+}
+
+#gallery a:hover span {
+  display: block;
+  position: absolute;
+  top: 10px;
+  left: 340px;
+  text-align: center;
+}
+  
+h1{
+  text-indent: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+h2{
+  text-align: center;
+}
+
+header {
+  background-size: cover;
+  height: 280px;
+  background-image:url(logo.png);
+  background-repeat:no-repeat;
+  padding: 20px;
+  margin-bottom: 0px;
+}
+
+img{
+  margin: auto;
+}
+
+main{
+  overflow: auto;
+  color:#000000;
+  font-size: 16px;
+  font-family: helvetica, sans-serif;
+  padding-top: 20px;
+}
+
+main ul{
+text-align: center;
+list-style-type: none;
+font-weight: bold;
+font-family: helvetica, sans-serif;
+font-size: 17px;
+}
+
+#mobile {
+  display: inline;
+}
+
+nav{
+  float: left;
+  font-weight: bold;
+  width: 200px;
+  font-family: helvetica, sans-serif;
+  font-size: 18px;
+}
+
+nav a{
+  text-decoration:none;
+  padding-bottom: 10px;
+  padding-top:10px;
+  display: block;
+  background-color: #336600;
+  border-bottom: 1px solid #ffffff;
+  text-align: center;
+}
+ 
+nav a:link{
+  color: #ffffff;
+}
+
+nav a:visited{
+  color: #990000;
+}
+
+nav a:hover{
+  color:#336600;
+  background-color: #ffffff;
+}
+
+nav ul{
+  list-style-type:none;
+  margin: 0;
+  padding: 0;
+}
+
+p{
+  text-align: left;
+  margin-left: 20px;
+}
+  
+#rightcol {
+  margin-left:200px;
+  background-color:#ffffff;
+  /*height:  500px;*/
+}
+
+table{
+  width: 70%;
+  margin:auto;
+}
+
+#wrapper {
+  width: 80%;
+  min-width: 960px;
+  max-width: 1200px;
+ /* min-height: 800px;
+  max-height: 900px;*/
+  margin-right: auto;
+  margin-left: auto;
+  background-color: #336600;
+  box-shadow: 5px 5px 10px #666666;
+}
+
+
